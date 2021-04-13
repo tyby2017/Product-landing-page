@@ -1,0 +1,114 @@
+html {
+    box-sizing:border-box;
+  }
+  
+  *, *::before, *::after{
+    box-sizing:inherit;
+    font-family:sans-serif;
+  }
+  
+  #nav-bar{
+    background-color:#E29A37;
+    padding:10px;
+    float:right;
+    position:fixed;
+    top:0;
+    right:100px;
+    border-radius:10px;
+  }
+  
+  #nav-bar a {
+    margin:20px;
+    text-decoration:none;
+    color:inherit;
+    font-size:20px;
+    transition: 250ms;
+  }
+  
+  #nav-bar a:hover {  
+    background-color:#F9CD3C;
+    padding:20px;
+    border-radius:10px;
+    font-size:25px;
+  }
+  
+  #container, #form {
+    display:flex;
+    flex-direction:column;  
+    align-items:center;
+  }
+  
+  #password, #email {
+    margin-bottom:10px;
+    font-size:15px;
+    border:1px solid;
+    border-radius:5px;
+    padding:5px;
+  }
+  
+  #submit{
+    font-size:15px;
+    width:80px;
+    height:25px;
+    font-weight:700;
+    background-color: #ECA94B;
+    border:none;
+    border-radius:5px;
+    transition:250ms;
+  }
+  
+  #submit:hover{
+    background-color:#F9CD3C;
+    cursor:pointer;
+  }
+  
+  #sign-up a{
+    text-decoration:none;
+    margin-left:10px;
+  }
+  
+  #menu {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+  }
+  .pancakes {
+    width:200px;
+    border:2px solid black;
+    margin:10px;
+    padding:10px;
+  }
+  
+  button {
+    height:40px;
+    width:70%;
+    font-size:.8em;
+    text-transform:uppercase;
+    padding:0 10px;
+    margin:auto;
+    margin-top:10px;
+    font-weight:700;
+    cursor:pointer;
+    border:none;
+    border-radius:3px;
+    background-color:#ECA94B;
+    transition:250ms;
+  }
+  
+  button:hover {
+    background-color:#F9CD3C;
+  }
+  
+  .m-d {
+    margin:7px;  
+  }
+  
+  @media(max-width:500px){
+    #menu{
+      flex-direction:column;
+    }
+  }
+  
+  
+  
+  
